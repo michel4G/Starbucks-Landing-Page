@@ -8,6 +8,8 @@
     padding: 0;
     text-decoration: none;
     text-transform: capitalize;
+    list-style: none;
+    
 }
 
 .header{
@@ -27,9 +29,8 @@
 
 .content_one{
    display: flex;
-   padding-top: 80px;
-   padding-left: 100px;
-    
+   padding-left: 100px; 
+   justify-content: space-between;
 }
 
 .content_one h1{
@@ -37,17 +38,45 @@
     font-size: 50px;
     font-weight: 600;
     line-height: 1.2;
+    padding-top: 120px;
 }
 
 .content_one h1 span{
     font-size: 60px;
     font-weight: 950;
-    color: rgba(10, 102, 10, 0.753);
+    color: #017143;
 }
 
-.content_one a{
-    background-color: rgba(10, 102, 10, 0.753);
+.content_one button{
+    background: #017143;
+    color: #fff;
+    margin-top: 15px;
+    padding: 5px 20px;
+    border: 2px solid #017143;
     text-transform: uppercase;
-    border: 2px solid rgba(10, 102, 10, 0.753);
-    border-radius: 13px;
+    font-weight: 600;
+    letter-spacing: 1.8; 
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.content_img{
+    margin-right: 100px;
+}
+
+.content_img img{
+    height: 450px;
+    width: 300px;
+    padding-top: 40px;
+}
+
+.social_media{
+    padding-right: 60px;
+    padding-top: 100px;
+}
+
+.social_media ul li img{
+    margin-top: 10px;
+    padding-bottom: 25px;
+    color: #fff;
 }
