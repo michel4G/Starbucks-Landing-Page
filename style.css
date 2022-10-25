@@ -71,12 +71,15 @@
 }
 
 .social_media{
+    display: flex;
+    flex-direction: column;
     padding-right: 60px;
-    padding-top: 100px;
 }
 
-.social_media ul li img{
-    margin-top: 10px;
-    padding-bottom: 25px;
+.social_media a{
+    padding-bottom: 20px; 
+}
+
+.social_media a img{
     color: #fff;
 }
